@@ -6,3 +6,7 @@
 
   Из папки /web_backend установить зависимости с помощью "pip install -r requirements.txt"
   Из папки /web_backend запустить сервер с помощью "fastapi run main.py"
+
+Админ-панель:
+  Логин: admin
+  Пароль: admin
