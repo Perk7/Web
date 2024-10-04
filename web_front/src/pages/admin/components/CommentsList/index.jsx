@@ -31,7 +31,7 @@ export default function CommentsList() {
 
   return (<>{
     loading
-      ? ( <DotLoader size={60} color={"#CCC"} /> )
+      ? ( <DotLoader color={"#CCC"} size={100} cssOverride={{margin: '5rem auto 0'}} /> )
       : (
         <div className={styles.adminPanel__wrapper}>
           {comments.length === 0 ? (
