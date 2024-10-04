@@ -1,0 +1,178 @@
+.comments__form {
+    border-top: 2px solid #ddd;
+    border-bottom: 2px solid #ddd;
+
+    width: 100%;
+    padding: 2rem 0;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.comments__form h3 {
+    font-size: 1.25rem;
+    margin: 0;
+    margin-bottom: 2rem;
+}
+
+.comments__input {
+    background-color: #fff0;
+    border: 0;
+    border-bottom: 1px solid #ddd;
+
+    width: 50%;
+
+    color: #FFF;
+    font-family: sans-serif;
+    font-size: 1rem;
+
+    margin-bottom: 2rem;
+    padding: 0.75rem 1rem;
+
+    transition: .5s;
+}
+
+textarea.comments__input {
+    height: 4rem;
+}
+
+.comments__input:focus {
+    outline: 0;
+    border-bottom: 1px solid #2ad81a;
+}
+
+.comments__form button {
+    padding: 0.5rem 2rem;
+    font-size: 1rem;
+    border-radius: 0.5rem;
+    border: 1px solid #ddd;
+    color: #ddd;
+    background-color: #0000;
+    font-weight: 600;
+    transition: 0.6s;
+}
+
+.comments__form button:hover {
+    color: #000;
+    background-color: #ddd;
+}
+
+.comments__form button:disabled {
+    color: #000;
+    background-color: #777;
+    border: 1px solid #777;
+}
+
+.comments__emptyListTitle {
+    text-align: center;
+    font-size: 1.25rem;
+}
+
+.comments__list {
+    list-style-type: none;
+}
+
+.comments__listItem {
+    padding: 2rem 0;
+}
+
+.comments__itemName {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.comments__itemText {
+    padding-left: 1rem;
+
+    font-size: 1.25rem;
+}
+
+.comments__itemTime {
+    color: #777;
+}
+
+@media screen and (max-width: 1096px) {
+    .comments__form {
+        width: auto;
+        padding: 2rem 4rem;
+    }
+    
+    .comments__input {
+        width: 60%;
+        min-width: 350px;
+    }
+    
+    .comments__listItem {
+        padding: 2rem 0;
+    }
+    
+    .comments__itemName {
+        font-size: 1.5rem;
+        font-weight: 600;
+    }
+    
+    .comments__itemText {
+        padding-left: 1rem;
+    
+        font-size: 1.25rem;
+    }
+    
+    .comments__itemTime {
+        color: #777;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .comments__form {
+        padding: 2rem 1rem;
+    
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .comments__form h3 {
+        font-size: 1.5rem;
+    }
+    
+    .comments__input {
+        font-size: 1.25rem;
+    
+        margin-bottom: 2rem;
+
+        width: 85%;
+        min-width: 0;
+    }
+    
+    textarea.comments__input {
+        height: 5rem;
+    }
+    
+    .comments__form button {
+        padding: 1rem 3rem;
+        font-size: 1.25rem;
+        border-radius: 0.5rem;
+
+        margin-top: 2rem;
+    }
+    
+    .comments__listItem {
+        padding: 2rem 0;
+    }
+    
+    .comments__itemName {
+        font-size: 1.5rem;
+        font-weight: 600;
+    }
+    
+    .comments__itemText {
+        padding-left: 1rem;
+    
+        font-size: 1.25rem;
+    }
+    
+    .comments__itemTime {
+        color: #777;
+    }
+}

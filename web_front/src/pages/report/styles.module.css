@@ -1,0 +1,84 @@
+.report__wrapper {
+  width: 70%;
+  margin: auto;
+
+  font-family: sans-serif;
+
+  padding: 5rem 0;
+
+  color: #FFF;
+}
+
+.report__header, .report__mainTitle {
+  text-align: center;
+  font-size: 1.75rem;
+
+  padding: 2rem 0;
+}
+
+.report__header__row {
+  margin-bottom: 5rem;
+}
+
+.report__header__row img {
+  height: 5rem;
+}
+
+.report__titlePage__description {
+  text-align: left;
+  font-size: 1.25rem;
+
+  padding: 4rem 0;
+}
+
+.report__titlePage__description ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.report__titlePage__description li {
+  margin-bottom: 1rem;
+}
+
+.report__titlePage__footer {
+  text-align: center;
+  font-size: 1.25rem;
+
+  padding-bottom: 3rem;
+}
+
+.report__main__content {
+  font-size: 1.25rem;
+  width: 80%;
+}
+
+.report__main__subTitle {
+  font-size: 1.25rem;
+
+  padding: 1rem 0 0;
+}
+
+.report__main__links li {
+  padding: 0.5rem 0;
+}
+.report__main__links a {
+  text-decoration: none;
+  color: #3ba352;
+  font-size: 1.25rem;
+  font-weight: normal;
+  transition: .6s;
+}
+
+.report__main__links a:hover {
+  color: #00ff37;
+}
+
+@media screen and (max-width: 600px) {
+  .report__header__row img {
+    height: 3rem;
+  }
+
+  .report__main__content {
+    width: 100%;
+  }
+}

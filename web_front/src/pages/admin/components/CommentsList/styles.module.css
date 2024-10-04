@@ -1,0 +1,79 @@
+.adminPanel__wrapper {
+    width: 800px;
+    margin: 5rem auto 0;
+
+    color: #ddd;
+}
+
+.adminPanel__list_empty {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.adminPanel__list {
+    list-style-type: none;
+}
+
+.adminPanel__listItem {
+    display: grid;
+    
+    grid-template-columns: 25% 45% 15% 15%;
+    align-items: center;
+    
+    border-bottom: 1px solid #ddd;
+}
+
+.adminPanel__listItem:last-child {
+    border-bottom: 0;
+}
+
+.adminPanel__listItem button {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border-radius: 0.5rem;
+    border: 1px solid #ddd;
+    color: #ddd;
+    background-color: #0000;
+    font-weight: 600;
+    transition: 0.6s;
+}
+
+.adminPanel__listItem button:hover {
+    color: #000;
+    background-color: #ddd;
+}
+
+.adminPanel__listItem button:disabled {
+    color: #000;
+    background-color: #777;
+    border: 1px solid #777;
+}
+
+.adminPanel__listItem pre {
+    max-height: 5rem;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    margin-right: 1.5rem;
+}
+
+@media screen and (max-width: 900px) {
+    .adminPanel__wrapper {
+        width: 85%;
+        overflow-x: scroll;
+    
+        color: #ddd;
+    }
+    
+    .adminPanel__listItem {
+        grid-template-columns: 20% 40% 20% 20%;
+        min-width: 600px;
+    }
+    
+    .adminPanel__listItem:last-child {
+        border-bottom: 0;
+    }
+    
+    .adminPanel__listItem pre {
+        max-height: 7rem;
+    }
+}
