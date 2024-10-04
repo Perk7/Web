@@ -4,8 +4,6 @@
 
 /web_front/coverage
 
-/web_front/build
-
 /web_front/.DS_Store
 /web_front/.env.local
 /web_front/.env.development.local

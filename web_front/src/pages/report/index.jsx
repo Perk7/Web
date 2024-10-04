@@ -49,7 +49,7 @@ export default function Report() {
             <h3 className={styles.report__main__subTitle}>Ссылки: </h3>
             <ul className={styles.report__main__links}>
                 <li>
-                    <Link to={""}>Репозиторий GitHub</Link>
+                    <a href="https://github.com/Perk7/Web">Репозиторий GitHub</a>
                 </li>
                 <li>
                     <Link to={"/about"}>Реализованная страница "о себе"</Link>
